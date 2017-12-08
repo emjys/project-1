@@ -1,0 +1,158 @@
+body {
+  text-align: center;
+  background-color: #ffffe0;
+}
+
+h1 {
+ font-family: "Lilita One", cursive;
+  font-size: 120px;
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.container-main, h1 {
+  font-family: "Lilita One", cursive;
+  font-size: 120px;
+  color: red;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.container-main, p {
+  font-family: "Calibri" , sans-serif;
+  font-size: 23px;
+  color: #6e7b8b;
+}
+
+#play {
+  display: inline-block;
+  font-family: "Titan One", cursive;
+  font-size: 20px;
+  text-align:center;
+  border-radius: 20px 10px;
+  border-style: double;
+  width: 150px;
+  height: 50px;
+  margin: 8px;
+  padding-top: 6px;
+  color: #6e7b8b;
+}
+
+.startGame, h1 {
+  font-family: "Lilita One", cursive;
+  font-size: 80px;
+  color: red;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.startGame, p {
+  font-family: "Calibri" , sans-serif;
+  font-size: 20px;
+  color: #6e7b8b;
+}
+
+.startGame, .newGame {
+  display: none;
+}
+
+.newGame, .questions {
+  list-style-type: none;
+  }
+
+.answers, .questions {
+  font-family: "Calibri" , sans-serif;
+  font-size: 23px;
+  text-align: justify;
+  color: #6e7b8b;
+  }
+
+.questions li, {
+  margin: 15px;
+}
+
+.row newGame, #can {
+  font-family: "Titan One", cursive;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px 10px;
+  border-style: double;
+  width: 150px;
+  height: 50px;
+  margin: 28px;
+  padding-top: 6px;
+  color: #6e7b8b;
+}
+
+.answers li {
+  margin: 15px;
+}
+
+.row newGame, #meaning {
+  display: inline-block;
+  font-family: "Titan One", cursive;
+  font-size: 20px;
+  text-align:center;
+  border-radius: 20px 10px;
+  border-style: double;
+  width: 150px;
+  height: 50px;
+  margin:7px;
+  margin-top: 40px;
+  padding-top: 6px;
+  color: #6e7b8b;
+}
+
+.timer {
+  font-family: Calibri; sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.score {
+  font-family: Calibri; sans-serif;
+  font-size: 25px;
+  color: #6e7b8b;
+  margin: 10px;
+  text-align: center;
+}
+
+.row newGame, h2 {
+  font-family: "Calibri" , sans-serif;
+  color: red;
+  text-decoration: underline;
+  margin: 10px;
+  text-align: center;
+}
+
+.endGame {
+  display: none;
+}
+
+.endBox {
+  display: none;
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  background-color: #fdf5e6;
+  margin: 500px;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+
+.endBox, h2 {
+  color: #6e7b8b;
+}
+
+footer {
+  font-family: Calibri; sans-serif;
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  padding: 100px;
+  color: #6e7b8b;
+}

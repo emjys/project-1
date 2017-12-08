@@ -2,10 +2,55 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="css/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+          <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lilita+One|Titan+One" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <title>Project 1: Canmour</title>
   </head>
-  <body>
-    <script src="js/script.js" charset="utf-8"></script>
+
+<body>
+  <div class="container-main">
+    <h1>Canmour</h1>
+        <p>Singapore Humour Expression • Connect Lah!</p>
+          <div id="play">PLAY</a>
+        </div>
+      </div>
+
+      <div class="container">
+      <div class="startGame">
+        <h1>Canmour</h1>
+            <div class="timer">Time Starts</div>
+              <p>Click on the left to match the right meaning</p>
+      </div>
+
+        <!-- / Display questions and answers /-->
+          <div class="row newGame">
+            <div class="col-md-5">
+                <div id="can">Can...</div>
+                  <ul class="questions"></ul>
+            </div>
+
+          <div class="col-md-2">
+              <div class="score">Score: 0</div>
+          </div>
+
+                <div class="col-md-5">
+                  <div id="meaning">Meaning</div>
+                    <ul class="answers"></ul>
+                </div>
+          </div>
+
+      <div class="endBox">
+          <h2>Wa Lau, Lost AH!</h2>
+            <button id="button">Play Again</button>
+      </div>
+
+      <footer>Copyright 2017 • JS</footer>
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script src="assets/js/script.js" charset="utf-8"></script>
+
   </body>
 </html>
